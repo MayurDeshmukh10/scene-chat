@@ -4,4 +4,5 @@ echo $HOSTNAME
 which python
 python -m pip list
 
-python ./scripts/task3.py
+#python ./test.py
+python ./stable-dreamfusion/main.py --text "a hamburger" --workspace trial -O

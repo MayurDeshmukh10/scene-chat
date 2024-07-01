@@ -4,6 +4,7 @@ channels:
   - nvidia
   - conda-forge
   - defaults
+  - tissue-forge
 dependencies:
   - pytorch 
   - torchvision 
@@ -12,17 +13,14 @@ dependencies:
   - matplotlib
   - pandas
   - numpy
-  - notebook
-  - transformers
-  - scikit-learn
-  - jupyter
-  - datasets
-  - diffusers
   - wandb
   - accelerate
   - deepspeed
+  - pip
+  - gcc_linux-64
+  - gxx_linux-64
+  - tissue-forge
+  - libglib
   - pip:
-    - evaluate
-    - rouge_score
-    - trl
-    - mpi4py
+    - gdown
+    - -r requirements.txt
