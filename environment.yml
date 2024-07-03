@@ -6,21 +6,15 @@ channels:
   - defaults
   - tissue-forge
 dependencies:
-  - pytorch 
-  - torchvision 
-  - torchaudio 
-  - pytorch-cuda=11.8
-  - matplotlib
-  - pandas
-  - numpy
-  - wandb
-  - accelerate
-  - deepspeed
+  -  mkl==2024.0 
+  - torchvision=0.14.1=py38_cu116
+  - pytorch=1.13.1=py3.8_cuda11.6_cudnn8.3.2_0
+  - setuptools=69.5.1
   - pip
-  - gcc_linux-64
-  - gxx_linux-64
-  - tissue-forge
-  - libglib
   - pip:
     - gdown
     - -r requirements.txt
+    - ./stable-dreamfusion/raymarching
+    - ./stable-dreamfusion/freqencoder
+    - ./stable-dreamfusion/gridencoder
+    - ./stable-dreamfusion/shencoder
