@@ -1,0 +1,12 @@
+{
+    "meshes": [
+      {
+        "path": "D:/study/hlcv/meshes/monoblock_CHAIR.fbx",
+        "coordinates": [1.0, 2.0, 3.0]
+      },
+      {
+        "path": "D:/study/hlcv/meshes/monoblock_CHAIR.fbx",
+        "coordinates": [4.0, 5.0, 6.0]
+      }
+    ]
+  }
