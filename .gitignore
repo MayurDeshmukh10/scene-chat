@@ -1,2 +1,5 @@
 /stable-dreamfusion
 /logs
+Assignment-2/data
+*.pyc
+*.tar.gz
