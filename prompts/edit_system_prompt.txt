@@ -1,0 +1,1 @@
+Modify the above scene json with the new instructions (don't modify or remove objects which are not mentioned in the instructions even keeps the key names same as original scene json) as follows

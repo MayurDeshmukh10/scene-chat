@@ -1,0 +1,82 @@
+{
+    "area_name": "Office_Room",
+    "X": 0,
+    "Y": 0,
+    "Z": 0,
+    "area_size_X": 15,
+    "area_size_Y": 15,
+    "area_objects_list": [
+        {
+            "unique_id": 1,
+            "object_name": "Desk_1",
+            "X": 2.5,
+            "Y": -3.5,
+            "Z": 0,
+            "rotation_Z": 0,
+            "scale_X": 2,
+            "scale_Y": 1.5,
+            "scale_Z": 1.25,
+            "Material": "Wood, Metal"
+        },
+        {
+            "unique_id": 2,
+            "object_name": "Computer_1",
+            "X": 2.5,
+            "Y": -3.5,
+            "Z": 1.5,
+            "rotation_Z": 0,
+            "scale_X": 0.75,
+            "scale_Y": 0.5,
+            "scale_Z": 0.75,
+            "Material": "Metal, Plastic"
+        },
+        {
+            "unique_id": 3,
+            "object_name": "Chair_1",
+            "X": 0.5,
+            "Y": -4.5,
+            "Z": 0,
+            "rotation_Z": 0,
+            "scale_X": 1,
+            "scale_Y": 1,
+            "scale_Z": 1.5,
+            "Material": "Fabric, Metal"
+        },
+        {
+            "unique_id": 4,
+            "object_name": "Desk_2",
+            "X": -2.5,
+            "Y": 3.5,
+            "Z": 0,
+            "rotation_Z": 0,
+            "scale_X": 2,
+            "scale_Y": 1.5,
+            "scale_Z": 1.25,
+            "Material": "Wood, Metal"
+        },
+        {
+            "unique_id": 5,
+            "object_name": "Computer_2",
+            "X": -2.5,
+            "Y": 3.5,
+            "Z": 1.5,
+            "rotation_Z": 0,
+            "scale_X": 0.75,
+            "scale_Y": 0.5,
+            "scale_Z": 0.75,
+            "Material": "Metal, Plastic"
+        },
+        {
+            "unique_id": 6,
+            "object_name": "Chair_2",
+            "X": -1.5,
+            "Y": 3.5,
+            "Z": 0,
+            "rotation_Z": 0,
+            "scale_X": 1,
+            "scale_Y": 1,
+            "scale_Z": 1.5,
+            "Material": "Fabric, Metal"
+        }
+    ]
+}
