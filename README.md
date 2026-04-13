@@ -1,14 +1,15 @@
 # SceneChat
 
-SceneChat is a text-driven scene generation pipeline that turns a natural language description into a structured room layout, previews the layout in Blender, and can optionally generate 3D assets for the objects in the scene.
+SceneChat is a text-driven scene generation pipeline that turns a natural language description into a structured room layout, previews the layout in Blender, and can generate 3D assets for the objects in the scene.
 
-## What it does
+![SceneChat teaser](./assets/scenechat_teaser.gif)
 
-- Converts a scene description into structured JSON.
-- Builds a Blender preview scene from the JSON layout.
-- Supports an edit loop for modifying the scene description.
-- Uses Meshy to generate 3D assets for scene objects.
-- Saves preview `.blend` files and downloaded assets locally.
+![SceneChat method figure](./assets/methed.png)
+
+## Project Demo
+
+- [Demo Video](./assets/scene_chat_demo.mp4)
+
 
 ## Repository Layout
 
@@ -71,4 +72,3 @@ The script will:
 - `pipeline.py` currently reads a cached response from `prompts/response.json` instead of calling the LLM path directly. This makes local testing deterministic.
 - Generated files are written under `outputs/`.
 - Blender import/export behavior depends on the installed Blender version and enabled importers.
-
