@@ -34,7 +34,7 @@ Create an environment and install dependencies:
 
 ```bash
 conda env create -f environment.yml
-conda activate hlcv
+conda activate scene_chat
 ```
 
 If you prefer `pip`, install from `requirements.txt` inside a Python environment that already provides `bpy`:
